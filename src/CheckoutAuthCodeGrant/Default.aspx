@@ -7,7 +7,8 @@
 	<title>Blackbaud Checkout Demo </title>
 </head>
 <body>
-	<h1>Blackbaud Checkout Demo</h1>
+<form action="Default.aspx" id="Submit1" method="post" runat="server">
+<h1>Blackbaud Checkout Demo</h1>
 	Please select an amount:
 	<select id="amount">
 		<option value="25">$25</option>
@@ -64,5 +65,6 @@
 	</script>
 
 	<script src="https://payments.blackbaud.com/Checkout/bbCheckout.2.0.js"></script>
+</form>
 </body>
 </html>
