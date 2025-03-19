@@ -16,7 +16,7 @@
 		<option value="100">$100</option>
 	</select>
 	<button id="donate-now">Donate now!</button>
-
+	<asp:Button ID="SubmitBTN" Visible="false" UseSubmitBehavior="true" OnClick="Page_Load" runat="server" />
 	<script>
 		document.addEventListener('DOMContentLoaded', function () {
 
